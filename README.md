@@ -10,7 +10,6 @@ so that you can require it from
 
 ``` glsl
 // Require as many or as little as you need:
-#pragma glslify: cnoise2 = require(glsl-noise)
 #pragma glslify: snoise2 = require(glsl-noise/simplex/2d)
 #pragma glslify: snoise3 = require(glsl-noise/simplex/3d)
 #pragma glslify: snoise4 = require(glsl-noise/simplex/4d)
